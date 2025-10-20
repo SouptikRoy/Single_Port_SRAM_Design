@@ -83,6 +83,11 @@ $display("Addr %0d => Data %0d", addr, dout);
 * Ensures that operations respect SRAM setup and hold times.
 * Allows accurate waveform analysis for timing verification.
 
+  ![Output_capture](RTL2_single_port_sram.PNG)
+
+  ![RTL_Schematic](RTL_Sch_single_port_sram.PNG)
+
+
 ---
 
 ## 📊 Waveform Verification
@@ -97,6 +102,8 @@ $display("Addr %0d => Data %0d", addr, dout);
    * `din` and `dout`: Data written and read matches the expected pattern.
    * Verify `dout` latency relative to `addr` and `oe` assertion.
 4. Use the waveform to analyze setup/hold violations or unexpected behavior.
+
+   ![Waveform](Waveform.PNG)
 
 ---
 
