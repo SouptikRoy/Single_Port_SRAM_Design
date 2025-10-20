@@ -83,9 +83,11 @@ $display("Addr %0d => Data %0d", addr, dout);
 * Ensures that operations respect SRAM setup and hold times.
 * Allows accurate waveform analysis for timing verification.
 
+  ![RTL_Schematic](RTL_Sch_single_port_sram.PNG)
+
   ![Output_capture](RTL2_single_port_sram.PNG)
 
-  ![RTL_Schematic](RTL_Sch_single_port_sram.PNG)
+
 
 
 ---
